@@ -1,0 +1,12 @@
+*{
+margin:0;padding:0;box-sizing: border-box;
+}
+.person {
+background-color:#eee;width:300px;padding:30px;margin:20px auto;border-radius: 10px;text-align: center;transition:all 0.3s linear;
+}
+.person:hover {
+   cursor:pointer; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+.person img {border-radius:50%;border:1px solid teal;
+}
+.person h4 {text-transform: capitalize;margin:3px;letter-spacing: 0.15rem;color:teal}
